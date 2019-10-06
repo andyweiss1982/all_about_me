@@ -34,7 +34,8 @@ button, input[type="reset"] {
   width: 100px;
   cursor: pointer;
   transition: background-color 0.3s;
-  appearance: button;
+  -webkit-appearance: button;
+  -moz-appearance: button;
 }
 
 button:hover, input[type="reset"]:hover {
